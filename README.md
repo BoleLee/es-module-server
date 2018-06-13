@@ -129,6 +129,9 @@ modules脚本与使用defer属性的一般脚本执行顺序一致。
 
 与一般script不同，module scripts必须为[有效的JavaScript MIME types之一](https://html.spec.whatwg.org/multipage/scripting.html#javascript-mime-type)，否则将不会执行
 
+## Thanks
+
+[@Mywifi](https://github.com/Mywifi)
 
 ## 相关资料
 
