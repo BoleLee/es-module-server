@@ -5,6 +5,8 @@ npm install
 
 node server.js
 ```
+访问`http://localhost:10000`查看测试例子，请打开控制台观察
+
 
 # 浏览器中的ECMAScript Modules
 
@@ -138,6 +140,9 @@ modules脚本与使用defer属性的一般脚本执行顺序一致。
 - [ES6浏览器支持表](https://kangax.github.io/compat-table/es6/)
 
 - [ECMAScript modules in browsers ](https://jakearchibald.com/2017/es-modules-in-browsers/)
+
+- [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
+- [译文：图说ES Module](https://segmentfault.com/a/1190000014318751)
 
 - [ES6 Modules in Depth](https://ponyfoo.com/articles/es6-modules-in-depth)
 

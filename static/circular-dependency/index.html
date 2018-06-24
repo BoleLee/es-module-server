@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ES Modules Tests</title>
+  <title>循环依赖</title>
   <style>
     body {
       width: 90%;
@@ -13,13 +13,11 @@
   </style>
 </head>
 <body>
-  <ul>
-    <li>
-      <a href="./hello/index.html">Hello World!</a>
-    </li>
-    <li>
-      <a href="./circular-dependency/index.html">循环依赖</a>
-    </li>
-  </ul>
+  <div>请查看控制台</div>
+
+  <script type="module" src="./main.js"></script>
+  <script nomodule>
+    alert('your browsers can not supports es modules! please upgrade it.')
+  </script>
 </body>
 </html>
